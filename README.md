@@ -1,5 +1,6 @@
 # Capstone
-## Problem Statement 
-In this project I will pull reddit comments from the day Call of Duty: Blackops 4 came out until present day. Using this data, plus the data from regular patches and updates, I will provide insight into when new patches and updates should be released based on user feedback of the game at hand and how past patches corrected or failed to correct issues. I will be using a combination of sentiment analysis and time series data to create my models. 
+## Problem Statement and Intro
 
-I plan to measure my success or failure by comparing my model's predictions to past patches and updates, as well as any updates that come in between now and the completion of this project. 
+Call of Duty: Black Ops 4 was released on October 12th, 2018, to much anticipation, as it was the first time Call of Duty took a step in the direction of a Battle Royale game mode. Using data gathered from reddit, the front page of the internet, I will pull reddit comments from when the game came out until present day. Using this data, plus the data from regular patches and updates, I will provide insight into when new patches and updates should be released based on user feedback of the game on any given day, and whether Activision should use that feedback to guide future patches in order to maximize user retention and minimize churn. Given that online discussions can be about anything, I will specifically try to pinpoint topics revolving around new content and fixes that need to be made. I will be using a combination of sentiment analysis, time series analysis, and survival analysis to create my predictive models. 
+
+I plan to measure my success or failure by comparing my model's predictions to past patches and updates. In the future, I plan to pull more data as time passes and compare my models performance on unseen data.
