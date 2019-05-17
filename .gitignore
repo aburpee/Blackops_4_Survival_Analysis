@@ -1,2 +1,4 @@
-**/.json
-**/.csv
+*.json
+*.csv
+.DS_Store
+*.ipynb_checkpoints
